@@ -1,10 +1,10 @@
 import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
 
-export default function App() {
-  return (
-    <div style={{ padding: '2rem', fontFamily: 'sans-serif' }}>
-      <h1>VidWink</h1>
-      <p>Your video chat platform is launching soon!</p>
-    </div>
-  );
-}
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
