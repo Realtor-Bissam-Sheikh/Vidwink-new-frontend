@@ -1,3 +1,5 @@
+"@remix-run/dev": "^1.19.3"
+
 {
   "name": "vidwink-frontend",
   "version": "1.0.0",
