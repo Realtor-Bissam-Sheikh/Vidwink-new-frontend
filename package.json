@@ -1,17 +1,23 @@
 {
   "name": "vidwink-frontend",
   "version": "1.0.0",
-  "private": true,
-  "dependencies": {
-    "axios": "^1.4.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1"
-  },
+  "description": "Frontend for VidWink",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "remix build",
+    "start": "remix-serve build",
+    "dev": "remix dev"
+  },
+  "dependencies": {
+    "@remix-run/dev": "^1.19.3",
+    "@remix-run/react": "^1.19.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1"
+  },
+  "engines": {
+    "node": ">=16"
   }
 }
