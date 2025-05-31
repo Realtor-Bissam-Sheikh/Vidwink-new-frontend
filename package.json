@@ -1,19 +1,19 @@
-"@remix-run/dev": "^1.19.3"
-
 {
   "name": "vidwink-frontend",
   "version": "1.0.0",
-  "description": "VidWink Frontend",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "vite"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1"
+    "@remix-run/dev": "^1.19.3"
+  },
+  "devDependencies": {
+    "vite": "^4.5.0"
   }
 }
